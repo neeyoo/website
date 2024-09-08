@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/neeyoo/website/static/css/main.71a09ec9.css",
+    "main.js": "/neeyoo/website/static/js/main.f97f1591.js",
+    "static/js/453.5106d541.chunk.js": "/neeyoo/website/static/js/453.5106d541.chunk.js",
+    "static/media/banner-bg.png": "/neeyoo/website/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/neeyoo/website/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/neeyoo/website/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/neeyoo/website/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/neeyoo/website/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/logo.svg": "/neeyoo/website/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
+    "static/media/nav-icon3.svg": "/neeyoo/website/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "index.html": "/neeyoo/website/index.html",
+    "static/media/nav-icon1.svg": "/neeyoo/website/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/neeyoo/website/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.71a09ec9.css.map": "/neeyoo/website/static/css/main.71a09ec9.css.map",
+    "main.f97f1591.js.map": "/neeyoo/website/static/js/main.f97f1591.js.map",
+    "453.5106d541.chunk.js.map": "/neeyoo/website/static/js/453.5106d541.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71a09ec9.css",
+    "static/js/main.f97f1591.js"
+  ]
+}
