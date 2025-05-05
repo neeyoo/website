@@ -1,14 +1,9 @@
 import { useEffect, useState } from "react"
 import { Container, Navbar, Nav } from "react-bootstrap"
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/yz-futuristic-logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
-import { HashLink } from 'react-router-hash-link';
-import {
-    BrowserRouter as Router
-} from "react-router-dom";
-
+import githubIcon from '../assets/img/github-icon.svg';
+import scholarIcon from '../assets/img/google-scholar-icon.svg';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -49,17 +44,16 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={navIcon1} alt="" /></a>
-                            <a href="#"><img src={navIcon2} alt="" /></a>
-                            <a href="#"><img src={navIcon3} alt="" /></a>
+                            <a href="https://www.linkedin.com/in/yang-zhang66/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="LinkedIn" /></a>
+                            <a href="https://github.com/neeyoo" target="_blank" rel="noopener noreferrer"><img src={githubIcon} alt="GitHub" /></a>
+                            <a href="https://scholar.google.com/citations?user=0YZbqOQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><img src={scholarIcon} alt="GoogleScholar" /></a>
                         </div>
-                        <button href="#connect" className="vvd"><span>Let’s Connect</span></button>
-                        {/* <HashLink to='#connect'>
-                            <button className="vvd"><span>Let’s Connect</span></button>
-                        </HashLink> */}
+                        <a href="#connect">
+                            <button className="vvd" onClick={() => onUpdateActiveLink('connect')}><span>Let's Connect</span></button>
+                        </a>
                     </span>
                 </Navbar.Collapse>
-            </Container >
-        </Navbar >
+            </Container>
+        </Navbar>
     )
 }

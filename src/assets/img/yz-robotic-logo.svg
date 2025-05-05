@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="roboticsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#AA367C" />
+      <stop offset="100%" stop-color="#4A2FBD" />
+    </linearGradient>
+    <linearGradient id="metalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0E0E0" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#C0C0C0" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Hexagonal background -->
+  <path d="M100 10 L175 50 L175 150 L100 190 L25 150 L25 50 Z" fill="url(#roboticsGradient)" opacity="0.9" />
+  <path d="M100 20 L165 55 L165 145 L100 180 L35 145 L35 55 Z" stroke="white" stroke-width="1.5" fill="none" opacity="0.3" />
+  
+  <!-- Circuit board patterns -->
+  <path d="M50 50 L150 50" stroke="white" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5" />
+  <path d="M50 150 L150 150" stroke="white" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5" />
+  <path d="M50 50 L50 150" stroke="white" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5" />
+  <path d="M150 50 L150 150" stroke="white" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5" />
+  
+  <!-- Gear elements -->
+  <circle cx="100" cy="100" r="40" fill="none" stroke="url(#metalGradient)" stroke-width="3" />
+  <circle cx="100" cy="100" r="35" fill="none" stroke="url(#metalGradient)" stroke-width="1.5" />
+  
+  <!-- Gear teeth -->
+  <path d="M100 60 L100 50" stroke="url(#metalGradient)" stroke-width="5" stroke-linecap="round" />
+  <path d="M129.3 70.7 L136.4 63.6" stroke="url(#metalGradient)" stroke-width="5" stroke-linecap="round" />
+  <path d="M140 100 L150 100" stroke="url(#metalGradient)" stroke-width="5" stroke-linecap="round" />
+  <path d="M129.3 129.3 L136.4 136.4" stroke="url(#metalGradient)" stroke-width="5" stroke-linecap="round" />
+  <path d="M100 140 L100 150" stroke="url(#metalGradient)" stroke-width="5" stroke-linecap="round" />
+  <path d="M70.7 129.3 L63.6 136.4" stroke="url(#metalGradient)" stroke-width="5" stroke-linecap="round" />
+  <path d="M60 100 L50 100" stroke="url(#metalGradient)" stroke-width="5" stroke-linecap="round" />
+  <path d="M70.7 70.7 L63.6 63.6" stroke="url(#metalGradient)" stroke-width="5" stroke-linecap="round" />
+  
+  <!-- Robotic arm elements -->
+  <path d="M100 100 L130 130" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" />
+  <path d="M100 100 L70 130" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" />
+  <path d="M100 100 L100 70" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" />
+  
+  <!-- Joints -->
+  <circle cx="100" cy="100" r="8" fill="url(#metalGradient)" filter="url(#glow)" />
+  <circle cx="100" cy="70" r="5" fill="url(#metalGradient)" filter="url(#glow)" />
+  <circle cx="70" cy="130" r="5" fill="url(#metalGradient)" filter="url(#glow)" />
+  <circle cx="130" cy="130" r="5" fill="url(#metalGradient)" filter="url(#glow)" />
+  
+  <!-- Digital elements -->
+  <rect x="90" y="155" width="20" height="5" fill="white" opacity="0.8" />
+  <rect x="95" y="160" width="10" height="5" fill="white" opacity="0.8" />
+  <rect x="97.5" y="165" width="5" height="5" fill="white" opacity="0.8" />
+  
+  <!-- Initials with tech style -->
+  <g transform="translate(75, 105)">
+    <!-- Y -->
+    <path d="M0 0 L10 15 L20 0" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M10 15 L10 30" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" />
+    
+    <!-- Z -->
+    <path d="M30 0 L50 0 L30 30 L50 30" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

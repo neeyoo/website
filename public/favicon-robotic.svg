@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="roboticsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#AA367C" />
+      <stop offset="100%" stop-color="#4A2FBD" />
+    </linearGradient>
+    <linearGradient id="metalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0E0E0" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#C0C0C0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="16" cy="16" r="16" fill="#121212" />
+  
+  <!-- Circuit pattern -->
+  <g opacity="0.3">
+    <path d="M4 16 H28" stroke="#4A2FBD" stroke-width="0.5" />
+    <path d="M16 4 V28" stroke="#4A2FBD" stroke-width="0.5" />
+    <path d="M6 6 L26 26" stroke="#4A2FBD" stroke-width="0.5" />
+    <path d="M6 26 L26 6" stroke="#4A2FBD" stroke-width="0.5" />
+  </g>
+  
+  <!-- Main gear -->
+  <circle cx="16" cy="16" r="12" fill="none" stroke="url(#roboticsGradient)" stroke-width="1" />
+  
+  <!-- Robotic arm mechanism -->
+  <g>
+    <!-- Central hub -->
+    <circle cx="16" cy="16" r="3" fill="#121212" stroke="url(#metalGradient)" stroke-width="0.8" />
+    
+    <!-- Arm segments -->
+    <path d="M16 16 L21 21" stroke="url(#metalGradient)" stroke-width="1.2" stroke-linecap="round" />
+    <path d="M16 16 L11 21" stroke="url(#metalGradient)" stroke-width="1.2" stroke-linecap="round" />
+    <path d="M16 16 L16 11" stroke="url(#metalGradient)" stroke-width="1.2" stroke-linecap="round" />
+    
+    <!-- Joints -->
+    <circle cx="16" cy="11" r="1.5" fill="#121212" stroke="url(#metalGradient)" stroke-width="0.8" />
+    <circle cx="11" cy="21" r="1.5" fill="#121212" stroke="url(#metalGradient)" stroke-width="0.8" />
+    <circle cx="21" cy="21" r="1.5" fill="#121212" stroke="url(#metalGradient)" stroke-width="0.8" />
+  </g>
+  
+  <!-- YZ initials -->
+  <g transform="translate(11, 22) scale(0.5)">
+    <!-- Y -->
+    <path d="M0 -10 L4 -5 L8 -10" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M4 -5 L4 0" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round" />
+    
+    <!-- Z -->
+    <path d="M10 -10 L18 -10 L10 0 L18 0" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
