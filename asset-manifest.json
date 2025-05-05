@@ -1,24 +1,37 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.05d594e6.css",
-    "main.js": "/website/static/js/main.3318aee6.js",
+    "main.css": "/website/static/css/main.4a38c771.css",
+    "main.js": "/website/static/js/main.5b93099c.js",
     "static/js/453.5106d541.chunk.js": "/website/static/js/453.5106d541.chunk.js",
+    "static/media/color-sharp.png": "/website/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/website/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg.png": "/website/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/website/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/CentraNo2-Bold.ttf": "/website/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/website/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/website/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/logo.svg": "/website/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
-    "static/media/nav-icon3.svg": "/website/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/project-img1.png": "/website/static/media/project-img1.d593db3f12901bc685c2.png",
+    "static/media/footer-bg.png": "/website/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/project-img2.png": "/website/static/media/project-img2.2e52097c417f9f1134b0.png",
+    "static/media/project-img3.png": "/website/static/media/project-img3.675b30d2f975a1bc1d09.png",
+    "static/media/contact-img.svg": "/website/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/revicons.eot": "/website/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/website/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/website/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/yz-futuristic-logo.svg": "/website/static/media/yz-futuristic-logo.b6b4f66982342f6d69f139d085b6522b.svg",
+    "static/media/meter2.svg": "/website/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/website/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/website/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/google-scholar-icon.svg": "/website/static/media/google-scholar-icon.3cb60c4819a31929e3c445e50ffde645.svg",
+    "static/media/github-icon.svg": "/website/static/media/github-icon.f02e9cdc1f0df2ce674e302fc617d021.svg",
     "index.html": "/website/index.html",
     "static/media/nav-icon1.svg": "/website/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "static/media/nav-icon2.svg": "/website/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.05d594e6.css.map": "/website/static/css/main.05d594e6.css.map",
-    "main.3318aee6.js.map": "/website/static/js/main.3318aee6.js.map",
+    "main.4a38c771.css.map": "/website/static/css/main.4a38c771.css.map",
+    "main.5b93099c.js.map": "/website/static/js/main.5b93099c.js.map",
     "453.5106d541.chunk.js.map": "/website/static/js/453.5106d541.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05d594e6.css",
-    "static/js/main.3318aee6.js"
+    "static/css/main.4a38c771.css",
+    "static/js/main.5b93099c.js"
   ]
 }
